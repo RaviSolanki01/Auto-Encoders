@@ -23,48 +23,6 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 ```
 
-    WARNING: Logging before flag parsing goes to stderr.
-    W0408 10:25:11.115103 140297008670528 deprecation.py:323] From <ipython-input-3-c3d55fec490c>:2: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
-    W0408 10:25:11.118516 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please write your own downloading logic.
-    W0408 10:25:11.121901 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: _internal_retry.<locals>.wrap.<locals>.wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use urllib or similar directly.
-    W0408 10:25:26.616078 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use tf.data to implement this functionality.
-
-
-    Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
-    Extracting /tmp/data/train-images-idx3-ubyte.gz
-
-
-    W0408 10:25:28.032079 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use tf.data to implement this functionality.
-    W0408 10:25:28.045505 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use tf.one_hot on tensors.
-
-
-    Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
-    Extracting /tmp/data/train-labels-idx1-ubyte.gz
-    Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
-    Extracting /tmp/data/t10k-images-idx3-ubyte.gz
-
-
-    W0408 10:25:32.434441 140297008670528 deprecation.py:323] From /home/direwolf/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
-    Instructions for updating:
-    Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
-
-
-    Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
-    Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
-
-
 ![autoencoder](https://www.learnopencv.com/wp-content/uploads/2017/11/denoising-example.png)
 
 
